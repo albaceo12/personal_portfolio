@@ -1,0 +1,61 @@
+.resumecard {
+  width: 100%;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  border-bottom: 1px solid rgb(39 39 42);
+}
+.resumecard-no-badge {
+  width: 7rem;
+  text-align: center;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  color: #edff20;
+  border: 1px solid #edff20;
+  padding: 1px 0;
+  border-radius: 0.125rem; /* 2px */
+}
+.resumecard-badge {
+  width: 6rem;
+  text-align: center;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  padding: 1px 0;
+  color: #999;
+  border-radius: 0.125rem; /* 2px */
+  border: 1px solid #52525b;
+}
+.resumecard-h2 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-family: "Montserrat", "sans-serif";
+  color: #edf2f7;
+  font-weight: 500;
+}
+.resumecard-p-1 {
+  color: #999;
+  margin-top: -0.5rem;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.resumecard-p-2 {
+  color: #999;
+  padding-right: 2.5rem;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  font-weight: 500;
+}
+@media screen and (max-width: 361px) {
+  .resumecard-h2,
+  .resumecard-p-1,
+  .resumecard-p-2 {
+    text-align: center;
+  }
+  .resumecard-p-2 {
+    padding-right: 0rem;
+  }
+  .resumecard {
+    align-items: center;
+  }
+}

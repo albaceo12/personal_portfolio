@@ -1,0 +1,32 @@
+.title {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 700;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  z-index: 10;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #27272a;
+}
+.title-span-1 {
+  color: #edff20;
+}
+.title-span-2 {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.75rem;
+  opacity: 0.1;
+  z-index: -10;
+  transform: translateX(0);
+  background-image: linear-gradient(to top, #edff20, #757575);
+  transition: transform 0.5s;
+}
+.title:hover .title-span-2 {
+  transform: translateX(6rem);
+}

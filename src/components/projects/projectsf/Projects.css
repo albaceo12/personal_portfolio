@@ -1,0 +1,14 @@
+.proj {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+.proj-1 {
+  padding: 0 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  .proj {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

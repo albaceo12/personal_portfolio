@@ -1,0 +1,27 @@
+.sidenavtitle {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
+  color: rgb(244 244 245);
+  border-bottom: 1px solid rgb(113 113 122);
+  letter-spacing: 0.025em;
+}
+.sidenavtitle-span-1 {
+  color: #edff20;
+}
+.sidenavtitle-span-2 {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  position: absolute;
+  left: -0.75rem;
+  top: 0;
+  opacity: 0.1;
+  z-index: -10;
+  border-radius: 100%;
+  background-image: linear-gradient(to top, #edff20, #4b5563);
+}

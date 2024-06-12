@@ -1,0 +1,114 @@
+.aboutme {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-bottom: 1.5rem;
+}
+.aboutme-1 {
+  /* width: 50%; */
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(39 39 42);
+  color: rgb(161 161 170);
+}
+
+.aboutme-1-1 {
+  padding: 1.5rem 0;
+}
+.aboutme-1-1-h {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.aboutme-1-1-p {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  line-height: 1.5rem; /* 24px*/
+}
+.aboutme-2 {
+  /* width: 50%; */
+  padding: 1.5rem;
+}
+.aboutme-2-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.aboutRightLi {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #2d3748;
+  color: rgb(161 161 170);
+  font-weight: 400;
+}
+.aboutRightLiSpan {
+  background-color: #edff20;
+  text-transform: uppercase;
+  padding: 1px 1rem 0 1rem;
+  border-radius: 0.375rem; /* 6px */
+  color: rgb(0 0 0);
+}
+@media screen and (max-width: 1180px) {
+  .aboutme {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .aboutme-1 {
+    border-right: none;
+    border-bottom: 1px solid rgb(39 39 42);
+  }
+}
+@media screen and (max-width: 380px) {
+  .li-1 {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    height: 4rem;
+  }
+  .li-1-1 {
+    position: absolute;
+    top: 3.4rem;
+    right: 0;
+  }
+  .li-2 {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    height: 4rem;
+  }
+  .li-2-2 {
+    position: absolute;
+    top: 3.4rem;
+    right: 0;
+  }
+  .li-3 {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    height: 4rem;
+  }
+  .li-3-3 {
+    position: absolute;
+    top: 3.4rem;
+    right: 0;
+  }
+  .li-4 {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    height: 4rem;
+  }
+  .li-4-4 {
+    position: absolute;
+    top: 3.4rem;
+    right: 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .aboutme-1-1-h {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .aboutme-1-1-p {
+    text-align: center;
+  }
+}
