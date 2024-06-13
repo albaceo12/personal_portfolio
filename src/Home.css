@@ -379,6 +379,11 @@
 .condition-false:hover {
   color: #edff20;
 }
+@media screen and (max-width: 1120px) {
+  .responsive-contact {
+    flex: 1;
+  }
+}
 @media screen and (max-width: 990px) {
   .home-h-left {
     flex-direction: column;
@@ -393,11 +398,11 @@
     z-index: 100;
   }
 }
-@media screen and (max-width: 727px) {
+/* @media screen and (max-width: 727px) {
   .responsive-contact {
     flex: 1;
   }
-}
+} */
 @media screen and (max-width: 450px) {
   .home-h-left {
     flex-direction: column;
